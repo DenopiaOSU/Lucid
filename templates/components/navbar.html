@@ -1,7 +1,7 @@
 <nav id="navbar" class="navbar is-primary">
     <div class="navbar-brand">
         <a class="navbar-item navbar-logo" href="/home">
-            {{ appName() }}
+            <b>Home</b>
         </a>
 
         <a role="button" class="navbar-burger" id="navbar-burger" onclick="togglenavbar()">
@@ -13,15 +13,11 @@
 
     <div id="navbar" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="/home">
-                Home
-            </a>
-
             <a class="navbar-item" href="/leaderboard">
                 Leaderboards
             </a>
 
-            <!--<div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
                     Information
                 </a>
@@ -37,12 +33,12 @@
                         Report an issue
                     </a>
                 </div>
-            </div>-->
+            </div>
 
-            {% if session.authenticated and session.user_data['is_staff'] %}
+            <!-- {% if session.authenticated and session.user_data['is_staff'] %}
             <a class="navbar-item" href="/admin">
                 Admin
-            </a>
+            </a> -->
             {% endif %}
         </div>
 

@@ -31,4 +31,5 @@ class Privileges(IntFlag):
     Dangerous   = 1 << 14 # able to manage full server state.
 
     Donator = Supporter | Premium
-    Staff = Mod | Admin | Dangerous
+    Notable = Supporter | Premium | Alumni
+    Staff = Mod | Admin | Dangerous # We should rename this to admin.

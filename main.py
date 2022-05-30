@@ -61,8 +61,9 @@ def domain() -> str:
 from blueprints.frontend import frontend
 app.register_blueprint(frontend)
 
-from blueprints.admin import admin
-app.register_blueprint(admin, url_prefix='/admin')
+# from blueprints.admin import admin
+# app.register_blueprint(admin, url_prefix='/admin')
+# We dont have an admin panel, and this one is pretty barebones.
 
 @app.errorhandler(404)
 async def page_not_found(e):
