@@ -1,6 +1,6 @@
 <nav id="navbar" class="navbar is-primary">
     <div class="navbar-brand">
-        <a class="navbar-item navbar-logo" href="/home">
+        <a class="navbar-item navbar-logo glow" href="/home">
             {{ appName() }}
         </a>
 
@@ -13,11 +13,11 @@
 
     <div id="navbar" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item" href="/home">
+            <a class="navbar-item glow" href="/home">
                 Home
             </a>
 
-            <a class="navbar-item" href="/leaderboard">
+            <a class="navbar-item glow" href="/leaderboard">
                 Leaderboards
             </a>
 
@@ -40,7 +40,7 @@
             </div>-->
 
             {% if session.authenticated and session.user_data['is_staff'] %}
-            <a class="navbar-item" href="/admin">
+            <a class="navbar-item glow" href="/admin">
                 Admin
             </a>
             {% endif %}
@@ -53,26 +53,26 @@
                     {{ session.user_data['name'] }}
                 </a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item" href="/u/{{ session.user_data['id'] }}">
+                    <a class="navbar-item glow" href="/u/{{ session.user_data['id'] }}">
                         Profile
                     </a>
-                    <a class="navbar-item" href="/settings">
+                    <a class="navbar-item glow" href="/settings">
                         Settings
                     </a>
                 </div>
             </div>
             <div class="navbar-item">
-                <a class="button is-light" href="/logout">
+                <a class="button is-light glow" href="/logout">
                     Logout
                 </a>
             </div>
             {% else %}
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button is-primary" href="/register">
+                    <a class="button is-primary glow" href="/register">
                         <strong>Sign up</strong>
                     </a>
-                    <a class="button is-light" href="/login">
+                    <a class="button is-light glow" href="/login">
                         Log in
                     </a>
                 </div>
