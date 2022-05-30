@@ -41,9 +41,17 @@
 
 #home-hero {
   background-image: url("https://media.discordapp.net/attachments/896336998296616960/980833090576478219/bg.png");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1023px) {
