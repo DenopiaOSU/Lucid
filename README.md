@@ -20,5 +20,5 @@ The team
 ------
 - [Yoru + Varkaria](https://github.com/Varkaria/guweb) | The original software we forked.
 - [narashini](https://github.com/leakyboi) | The majority of design edits
-- koenji | Emotional Support + Helped ***allot*** with the design of the website.
+- [koenji](https://github.com/koenji99) | Emotional Support + Helped ***allot*** with the design of the website.
 - [Dexitry](https://github.com/Dexitry) | idk man
