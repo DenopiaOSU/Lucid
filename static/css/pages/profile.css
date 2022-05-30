@@ -101,11 +101,11 @@
 }
 
 .mode-selects {
-  background: hsl(var(--main), 25%, 22%);
+  background: rgb(100, 120, 145);
 }
 
 .badge-selects {
-  background: hsl(var(--main), 16%, 20%);
+  background: rgb(100, 120, 145);
 }
 
 .select-left {
@@ -225,8 +225,7 @@ html {
   top: 0;
   left: 0;
   height: 100%;
-  background: hsl(var(
-  --main), 30%, 50%);
+  background: hsl(var(--main), 30%, 50%);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -255,7 +254,7 @@ html {
 
 .header {
   padding: 10px 10px;
-  background: hsl(var(--main), 30%, 50%);
+  background: rgb(100, 120, 145);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -267,7 +266,7 @@ html {
 .scores {
   background: content-box;
   transition: 0.2s transform ease;
-  background: hsl(var(--main), 20%, 20%);
+  background: rgb(161, 186, 217);
   padding: 6px;
 }
 
@@ -306,7 +305,7 @@ html {
   transform: translateY(-1px);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.04),
     0 16px 24px rgba(0, 0, 0, 0.04), 0 24px 32px rgba(0, 0, 0, 0.04);
-  background: hsl(var(--main), 30%, 30%);
+  background: rgb(161, 186, 217);
 }
 
 .map-single:first-child {
@@ -355,7 +354,7 @@ html {
 }
 
 .map-mod {
-  color: #cc5288;
+  color: rgb(161, 186, 217);
   font-size: 16px;
   font-weight: 600;
   margin-left: 6px;
@@ -373,7 +372,7 @@ html {
 
 .map-pp {
   font-weight: 700;
-  color: hsl(var(--main), 30%, 55%);
+  color: rgb(161, 186, 217);
   font-size: 20px;
 }
 
