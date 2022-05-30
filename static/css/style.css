@@ -290,7 +290,8 @@ a.foot-link {
 }
 
 .bg-accent {
-  background-color: hsl(var(--main), 30%, 50%);
+  /* background-color: hsl(var(--main), 30%, 50%); */
+  background-color: #a1bad9;
 }
 
 .bg-seccond {
