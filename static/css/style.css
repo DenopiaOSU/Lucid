@@ -176,7 +176,6 @@ a.foot-link {
   width: 100%;
   font-size: 12px;
   top: 0;
-  opacity: 0.3;
   backdrop-filter: blur(4px);
   background-color: rgb(161, 186, 217, 0.7);
 }
