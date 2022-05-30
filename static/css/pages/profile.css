@@ -30,7 +30,8 @@
   align-items: flex-end;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  background: hsl(var(--main), 30%, 50%);
+  /* background: hsl(var(--main), 30%, 50%); */
+  background: rgb(100, 120, 145);
   position: relative;
   overflow: hidden;
   background-position-y: 50% !important;
