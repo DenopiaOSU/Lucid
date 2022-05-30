@@ -26,6 +26,7 @@
 
 #title, #mascot {
   animation: appear 0.4s ease;
+  font-size: large;
 }
 
 @-webkit-keyframes appear {
