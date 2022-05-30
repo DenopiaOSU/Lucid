@@ -441,7 +441,7 @@ html {
   border-radius: 0 10px 10px 0;
   z-index: 0;
   margin-left: 6px;
-} -------------------------------------------------------------------------------------------------------------------
+}
 
 .score-details {
   height: 100%;
@@ -472,7 +472,7 @@ html {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(399px, 312px));
-  background: hsl(var(--main), 20%, 20%);
+  background: rgb(118, 138, 163);
   padding: 6px 6px 12px 6px;
 }
 
