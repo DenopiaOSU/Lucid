@@ -173,7 +173,7 @@ a.foot-link {
   width: 100%;
   transition: 0.2s ease;
   min-height: 0rem;
-  font-size: x-small;
+  max-height: 7cm;
 }
 
 .navbar-logo {
