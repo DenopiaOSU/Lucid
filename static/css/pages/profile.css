@@ -101,7 +101,7 @@
 }
 
 .mode-selects {
-  background: rgb(161, 186, 217);
+  background: rgb(140, 163, 191);
 }
 
 .badge-selects {
@@ -225,7 +225,7 @@ html {
   top: 0;
   left: 0;
   height: 100%;
-  background: hsl(var(--main), 30%, 50%);
+  background: rgb(100, 120, 145);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -234,7 +234,7 @@ html {
   font-size: 20px;
   padding: 5px;
   font-weight: 500;
-  background: hsl(var(--main), 30%, 38%);
+  background: rgb(100, 120, 145);
 }
 
 .column.is-1,
@@ -280,7 +280,8 @@ html {
   margin: 8px 0;
   justify-content: space-between;
   overflow: hidden;
-  background: hsl(var(--main), 25%, 25%);
+  background: rgb(100, 120, 145);
+  border-radius: 8px;
   transition: 0.2s ease;
   cursor: pointer;
 }
@@ -440,7 +441,7 @@ html {
   border-radius: 0 10px 10px 0;
   z-index: 0;
   margin-left: 6px;
-}
+} -------------------------------------------------------------------------------------------------------------------
 
 .score-details {
   height: 100%;
