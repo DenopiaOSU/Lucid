@@ -177,7 +177,7 @@ a.foot-link {
   font-size: 12px;
   top: 0;
   background-image: url("https://media.discordapp.net/attachments/896336998296616960/980843975164444732/newbg.png");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(4px);
