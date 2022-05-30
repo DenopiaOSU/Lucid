@@ -3,9 +3,9 @@
 
 {% block header %}
 <link rel="stylesheet" href="/static/css/pages/home.css">
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
 {% endblock %}
-<script>
+<!-- <script>
   axios.get('https://api.denopia.ml/get_player_count')
   .then((response) => {
     var online = response.data.counts.online;
@@ -13,7 +13,7 @@
     document.getElementById('online').innerHTML = online;
     document.getElementById('total').innerHTML = registered;
   });
-</script>
+</script> -->
 
 {% block content %}
 
@@ -54,14 +54,14 @@
           <h2 class="subtitle glow">
             Hey there! We're an osu private server, come check us out!
           </h2>
-          <div class="server-stats-2">
+          <!-- <div class="server-stats-2">
             <div class="server-stats-online" class>
               <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
             </div>
             <div class="server-stats-registered">
               <span><span id="registered" style="color: #ff4bf3;"></span> REGISTERED</span>
             </div>
-          </div>
+          </div> -->
           {% if not session.authenticated %}
           <div class="buttons">
             <a class="button is-primary" href="/register">
