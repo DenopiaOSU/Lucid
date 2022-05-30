@@ -39,6 +39,10 @@
   }
 }
 
+#home-hero {
+  background-image: url("https://cdn.discordapp.com/attachments/896336998296616960/980822911327797288/unknown.png");
+}
+
 @media screen and (max-width: 1023px) {
   .gulag-avatar {
     display: none;
