@@ -3,6 +3,7 @@
 
 {% block header %}
 <link rel="stylesheet" href="/static/css/pages/home.css">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 {% endblock %}
 <script>
   axios.get('https://api.denopia.ml/get_player_count')
@@ -53,7 +54,7 @@
           <h2 class="subtitle glow">
             Hey there! We're an osu private server, come check us out!
           </h2>
-          <div class="server-stats-2 center">
+          <div class="server-stats-2">
             <div class="server-stats-online" class>
               <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
             </div>
