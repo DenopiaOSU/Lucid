@@ -176,7 +176,7 @@ a.foot-link {
   width: 100%;
   top: 0;
   backdrop-filter: blur(4px);
-  background-color: hsla(var(--main), 50%, 50%, 0.7) !important;
+  background-color: hsla(var(--main), 50%, 50%, 0.3) !important;
 }
 
 .navbar-logo {
