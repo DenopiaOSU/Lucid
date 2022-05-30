@@ -143,3 +143,6 @@ config.py
 .data/*
 !.data/backgrounds/.gitkeep
 !.data/banners/.gitkeep
+
+# dev env
+./gulagfiles/
