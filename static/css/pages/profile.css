@@ -492,12 +492,12 @@ html {
 }
 
 .beatmap-block {
-  background-color: hsl(var(--main), 25%, 25%);
+  background-color: rgb(140, 163, 191);
   color: #fff;
 }
 
 .beatmap-block:hover {
-  background-color: hsl(var(--main), 25%, 30%);
+  background-color: rgb(157, 185, 219);
   transform: scale(1.01);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.04),
     0 16px 24px rgba(0, 0, 0, 0.04), 0 24px 32px rgba(0, 0, 0, 0.04);
