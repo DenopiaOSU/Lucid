@@ -572,14 +572,15 @@ span.beatmap-mapper {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: hsl(var(--main), 20%, 20%);
+  background: rgb(133, 155, 182);
 }
 
 .show-button {
   padding: 3px 42px;
-  background: hsl(var(--main), 25%, 25%);
+  background: rgb(133, 155, 182);
   margin: 0px 8px 8px 8px;
   text-align: center;
+  border-radius: 8px;
 }
 
 .show-button:hover {
