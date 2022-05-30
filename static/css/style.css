@@ -196,6 +196,7 @@ a.foot-link {
 .minimized {
   width: 100%;
   top: 0;
+  background-image: none;
   backdrop-filter: blur(4px);
   background-color: rgb(161, 186, 217, 0.7);
 }
