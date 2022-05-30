@@ -45,32 +45,34 @@
 </div>
 {% endif %}
 
-<div class="hero splash p-less is-fullheight-with-navbar" id="home-hero">
-  <div class="container flex">
-    <div class="columns flex-vcenter">
-      <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
-        <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">{{ appName() }}</h1>
-        <div class="server-stats-2">
-          <div class="server-stats-online">
-            <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
+<div id="MainHomeBG">
+  <div class="hero splash p-less is-fullheight-with-navbar" id="home-hero">
+    <div class="container flex">
+      <div class="columns flex-vcenter">
+        <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
+          <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">{{ appName() }}</h1>
+          <div class="server-stats-2">
+            <div class="server-stats-online">
+              <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
+            </div>
+            <div class="server-stats-registered">
+              <span><span id="registered" style="color: #ff4bf3;"></span> REGISTERED</span>
+            </div>
           </div>
-          <div class="server-stats-registered">
-            <span><span id="registered" style="color: #ff4bf3;"></span> REGISTERED</span>
+          <h2 class="subtitle">
+            Hey there! We're an osu private server, come check us out!
+          </h2>
+          {% if not session.authenticated %}
+          <div class="buttons">
+            <a class="button is-primary" href="/register">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light" href="/login">
+              Log in
+            </a>
           </div>
+          {% endif %}
         </div>
-        <h2 class="subtitle">
-          Hey there! We're an osu private server, come check us out!
-        </h2>
-        {% if not session.authenticated %}
-        <div class="buttons">
-          <a class="button is-primary" href="/register">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light" href="/login">
-            Log in
-          </a>
-        </div>
-        {% endif %}
       </div>
     </div>
   </div>
