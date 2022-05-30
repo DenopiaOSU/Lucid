@@ -40,13 +40,13 @@
 }
 
 #home-hero {
-  background-image: url("https://media.discordapp.net/attachments/896336998296616960/980833090576478219/bg.png");
+  background-image: url("https://media.discordapp.net/attachments/896336998296616960/980842574577295370/unknown.png");
   /* Add the blur effect */
   /* filter: blur(8px);
   -webkit-filter: blur(8px); */
 
   /* Full height */
-  height: 100%;
+  height: 70%;
 
   /* Center and scale the image nicely */
   background-position: center;
