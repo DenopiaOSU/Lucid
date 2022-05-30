@@ -178,7 +178,7 @@ a.foot-link {
   top: 0;
   opacity: 0.3;
   backdrop-filter: blur(4px);
-  background-color: #a1bad9 !important;
+  background-color: rgb(161, 186, 217, 0.7);
 }
 
 .navbar-logo {
@@ -194,7 +194,7 @@ a.foot-link {
   width: 100%;
   top: 0;
   backdrop-filter: blur(4px);
-  background-color: #a1bad9 !important;
+  background-color: rgb(161, 186, 217, 0.7);
 }
 
 .minimized.navbar {
