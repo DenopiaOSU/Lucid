@@ -171,14 +171,13 @@ a.foot-link {
 .navbar {
   position: fixed !important;
   transition: 0.2s ease;
-  background-color: #a1bad9;
   height: 24px;
   padding: 0px 40px;
   width: 100%;
   font-size: 12px;
   top: 0;
   backdrop-filter: blur(4px);
-  background-color: hsla(var(--main), 50%, 50%, 0.3) !important;
+  background-color: #a1bad9 !important;
 }
 
 .navbar-logo {
