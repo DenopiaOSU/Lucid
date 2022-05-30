@@ -49,16 +49,16 @@
     <div class="container flex">
       <div class="columns flex-vcenter">
         <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
-          <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">{{ appName() }}</h1>
+          <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd glow">{{ appName() }}</h1>
           <div class="server-stats-2">
             <div class="server-stats-online">
-              <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
+              <span><span id="online" class="glow" style="color: #49fa55;"></span> ONLINE</span>
             </div>
             <div class="server-stats-registered">
-              <span><span id="registered" style="color: #ff4bf3;"></span> REGISTERED</span>
+              <span><span id="registered" class="glow" style="color: #ff4bf3;"></span> REGISTERED</span>
             </div>
           </div>
-          <h2 class="subtitle">
+          <h2 class="subtitle glow">
             Hey there! We're an osu private server, come check us out!
           </h2>
           {% if not session.authenticated %}
