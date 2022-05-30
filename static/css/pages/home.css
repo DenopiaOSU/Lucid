@@ -41,6 +41,9 @@
 
 #home-hero {
   background-image: url("https://cdn.discordapp.com/attachments/896336998296616960/980822911327797288/unknown.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
 }
 
 @media screen and (max-width: 1023px) {
