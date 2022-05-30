@@ -43,7 +43,6 @@
   background-image: url("https://media.discordapp.net/attachments/896336998296616960/980822911327797288/unknown.png");
   /* Add the blur effect */
   filter: blur(8px);
-  -webkit-filter: blur(8px);
 
   /* Full height */
   height: 100%;

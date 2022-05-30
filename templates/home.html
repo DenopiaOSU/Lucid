@@ -5,12 +5,12 @@
 <link rel="stylesheet" href="/static/css/pages/home.css">
 {% endblock %}
 <script>
-  axios.get('https://osu.denopia.ml/api/get_player_count')
+  axios.get('https://api.denopia.ml/get_player_count')
   .then((response) => {
     var online = response.data.counts.online;
     var registered = response.data.counts.total;
     document.getElementById('online').innerHTML = online;
-    document.getElementById('registered').innerHTML = registered;
+    document.getElementById('total').innerHTML = registered;
   });
 </script>
 
@@ -48,7 +48,6 @@
   <div class="hero splash p-less is-fullheight-with-navbar" id="home-hero">
     <div class="container flex">
       <div class="columns flex-vcenter">
-        <element id="bg-image"></element>
         <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
           <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">{{ appName() }}</h1>
           <div class="server-stats-2">
