@@ -271,7 +271,7 @@ a.foot-link {
 .navbar.is-primary .navbar-start > a.navbar-item:focus,
 .navbar.is-primary .navbar-start > a.navbar-item:hover {
   background-color: transparent;
-  color: #fff;
+  color: rgb(171, 188, 211);
 }
 
 .navbar.is-primary .navbar-brand > a.navbar-item:hover {
