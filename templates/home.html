@@ -3,9 +3,9 @@
 
 {% block header %}
 <link rel="stylesheet" href="/static/css/pages/home.css">
-<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<! <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
 {% endblock %}
-<!-- <script>
+<! <script>
   axios.get('https://api.denopia.ml/get_player_count')
   .then((response) => {
     var online = response.data.counts.online;
@@ -34,7 +34,6 @@
           {% if status=='error' %}
           Uh oh! Be careful!
           {% elif status=='success' %}
-          Hey! Listen!
           {% endif %}
         </div>
       </div>
@@ -52,9 +51,9 @@
         <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
           <h2 class="glow title is-spaced" style="font-size: 80px;">Denopia</h2>
           <h2 class="subtitle glow">
-            Hey there! We're an osu private server, come check us out!
+            This site is currently under construction!
           </h2>
-          <!-- <div class="server-stats-2">
+          <! <div class="server-stats-2">
             <div class="server-stats-online" class>
               <span><span id="online" style="color: #49fa55;"></span> ONLINE</span>
             </div>
@@ -62,7 +61,7 @@
               <span><span id="registered" style="color: #ff4bf3;"></span> REGISTERED</span>
             </div>
           </div> -->
-          {% if not session.authenticated %}
+          <!--{% if not session.authenticated %}
           <div class="buttons">
             <a class="button is-primary" href="/register">
               <strong>Sign up</strong>
@@ -70,12 +69,12 @@
             <a class="button is-light" href="/login">
               Log in
             </a>
-          </div>
-          {% endif %}
+          </div> 
+          {% endif %} !-->
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
 <section class="section">
   <div class="container has-text-centered py-4">

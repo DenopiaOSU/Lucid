@@ -14,11 +14,11 @@
 }
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #1c2023, 0 0 20px #1c2023, 0 0 30px #1c2023, 0 0 40px #1c2023, 0 0 50px #1c2023, 0 0 60px #1c2023, 0 0 70px #1c2023;
+    text-shadow: 0 0 1px #1c2023, 0 0 2px #1c2023, 0 0 3px #1c2023, 0 0 4px #1c2023, 0 0 5px #1c2023, 0 0 6px #1c2023, 0 0 7px #1c2023;
   }
   
   to {
-    text-shadow: 0 0 10px #1c2023, 0 0 30px #1c2023, 0 0 40px #1c2023, 0 0 50px #1c2023, 0 0 60px #1c2023, 0 0 70px #1c2023, 0 0 80px #1c2023;
+    text-shadow: 0 0 1px #1c2023, 0 0 2px #1c2023, 0 0 3px #1c2023, 0 0 4px #1c2023, 0 0 5px #1c2023, 0 0 6px #1c2023, 0 0 7px #1c2023;
   }
 }
 
@@ -248,11 +248,13 @@ a.foot-link {
 .navbar-start:hover .navbar-item {
   opacity: 0.6;
   font-weight: 500;
+  
 }
 
 .navbar-item:hover,
 .navbar-item.navbar-dropdown:hover .navbar-item {
-  opacity: 1 !important;
+  opacity: 0.9 !important;
+  
 }
 
 .navbar.is-primary .navbar-end .navbar-link.is-active,
@@ -271,7 +273,7 @@ a.foot-link {
 .navbar.is-primary .navbar-start > a.navbar-item:focus,
 .navbar.is-primary .navbar-start > a.navbar-item:hover {
   background-color: transparent;
-  color: #fff;
+  color:rgb(179, 196, 218);
 }
 
 .navbar.is-primary .navbar-brand > a.navbar-item:hover {
@@ -306,7 +308,7 @@ a.foot-link {
 .input,
 .select select,
 .textarea {
-  background-color: hsl(var(--main), 12%, 18%);
+  background-color:rgb(179, 196, 218);
 }
 
 .bg-accent {
@@ -348,12 +350,17 @@ a.foot-link {
   padding: 8px;
   font-size: 12px;
   color: #fff;
-  background-color: hsl(var(--main), 25%, 20%);
+  background-image: url("https://media.discordapp.net/attachments/896336998296616960/980843975164444732/newbg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  background-color: rgba(161, 186, 217, .9);
   z-index: 1;
   flex-direction: column;
   text-align: center;
   position: relative;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .noti-banner {
@@ -417,7 +424,7 @@ a.foot-link {
   position: absolute;
   content: "";
   height: 3px;
-  background-color: hsl(var(--main), 50%, 50%);
+  background-color: rgba(161, 186, 217, .9);
   border-radius: 10px;
   left: 0;
   bottom: 0;
@@ -751,12 +758,12 @@ a.foot-link {
 
 body::-webkit-scrollbar {
   width: 12px;
-  background-color: hsl(var(--main), 10%, 25%);
+  background-color: hsl(213, 37%, 59%);
   border-bottom-right-radius: 8px;
 }
 body::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: hsl(var(--main), 15%, 40%);
+  background-color: hsl(213, 42%, 74%);
 }
 
 [v-cloak] {
