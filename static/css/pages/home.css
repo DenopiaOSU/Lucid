@@ -41,14 +41,13 @@
   -webkit-filter: blur(8px); */
 
   /* Full height */
-  height: 65%;
+  height: 75%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: max-content;
-  min-width: fit-content;
+  display: block;
 }
 
 @media screen and (max-width: 1023px) {
