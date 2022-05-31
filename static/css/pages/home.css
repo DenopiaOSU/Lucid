@@ -46,7 +46,9 @@
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  max-width: max-content;
+  min-width: fit-content;
 }
 
 @media screen and (max-width: 1023px) {
