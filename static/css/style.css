@@ -253,8 +253,7 @@ a.foot-link {
 
 .navbar-item:hover,
 .navbar-item.navbar-dropdown:hover .navbar-item {
-  opacity: 0.9 !important;
-  
+  opacity: 1 !important;
 }
 
 .navbar.is-primary .navbar-end .navbar-link.is-active,
