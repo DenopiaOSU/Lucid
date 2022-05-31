@@ -188,7 +188,7 @@ a.foot-link {
   position: fixed !important;
   transition: 0.2s ease;
   height: 24px;
-  padding: 0px 40px;
+  /* padding: 0px 40px; */
   width: 100%;
   font-size: 12px;
   top: 0;
